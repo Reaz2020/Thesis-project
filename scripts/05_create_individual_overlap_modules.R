@@ -63,7 +63,7 @@
 # ------------------------------------------------------------
 
 module_list_clean <- readRDS(
-  "../data/module_list_clean.rds"
+  "data/module_list_clean.rds"
 )
 
 cat("\nNumber of cleaned modules:",
@@ -292,3 +292,149 @@ if (all(audit_check)) {
     module_audit[!audit_check, ]
   )
 }
+
+
+
+# ============================================================
+# STEP: Create one individual module for each overlapping gene
+# ============================================================
+
+# We already identified 102 genes that appeared in more than
+# one of the original modules.
+#
+# Here, each overlapping gene becomes its OWN module.
+#
+# Example:
+# AICDA  -> AICDA_individual_module = "AICDA"
+# CTLA4  -> CTLA4_individual_module = "CTLA4"
+
+individual_overlap_modules <- lapply(
+  overlapping_genes,
+  function(gene) {
+    gene
+  }
+)
+
+# Give each one-gene module a unique module name.
+names(individual_overlap_modules) <- paste0(
+  overlapping_genes,
+  "_individual_module"
+)
+
+
+# ============================================================
+# CHECK 1: How many individual modules were created?
+# ============================================================
+
+cat("\n========================================\n")
+cat("INDIVIDUAL OVERLAP MODULES CREATED\n")
+cat("========================================\n")
+
+cat("Number of individual modules:",
+    length(individual_overlap_modules), "\n")
+
+
+# ============================================================
+# CHECK 2: Does every module contain exactly one gene?
+# ============================================================
+
+individual_module_sizes <- lengths(individual_overlap_modules)
+
+if (all(individual_module_sizes == 1)) {
+  cat("PASS: Every individual module contains exactly one gene.\n")
+} else {
+  cat("WARNING: At least one individual module does not contain exactly one gene.\n")
+}
+
+
+# ============================================================
+# CHECK 3: Print the individual modules
+# ============================================================
+
+cat("\n========================================\n")
+cat("INDIVIDUAL MODULE LIST\n")
+cat("========================================\n")
+
+print(individual_overlap_modules)
+
+
+# ============================================================
+# SAVE THE 102 INDIVIDUAL OVERLAP MODULES
+# ============================================================
+
+# Save the list containing the 102 one-gene modules.
+# This does NOT modify module_list_clean.rds.
+saveRDS(
+  individual_overlap_modules,
+  file = "data/individual_overlap_modules.rds"
+)
+
+cat("\n========================================\n")
+cat("INDIVIDUAL MODULES SAVED\n")
+cat("========================================\n")
+cat("Saved 102 individual modules to:\n")
+cat("data/individual_overlap_modules.rds\n")
+
+
+# ============================================================
+# VERIFY THE SAVED 102 INDIVIDUAL MODULES
+# ============================================================
+
+# Read the file back from disk.
+# This checks what was actually saved, not just what was in memory.
+individual_modules_check <- readRDS(
+  "data/individual_overlap_modules.rds"
+)
+
+cat("\n========================================\n")
+cat("VERIFY SAVED INDIVIDUAL MODULES\n")
+cat("========================================\n")
+
+# Number of modules
+cat("Total modules:",
+    length(individual_modules_check), "\n")
+
+# Check how many genes each module contains
+cat("\nModule sizes:\n")
+print(table(lengths(individual_modules_check)))
+
+# Show all module names
+cat("\nModule names:\n")
+print(names(individual_modules_check))
+
+# Show complete module -> gene mapping
+cat("\nComplete module contents:\n")
+print(individual_modules_check)
+
+
+# ============================================================
+# CHECK SCHEMA OF module_list_clean.rds
+# ============================================================
+
+module_list_schema_check <- readRDS(
+  "data/module_list_clean.rds"
+)
+
+cat("\n========================================\n")
+cat("SCHEMA OF module_list_clean.rds\n")
+cat("========================================\n")
+
+# What kind of R object is it?
+cat("\nClass:\n")
+print(class(module_list_schema_check))
+
+# Overall internal structure
+cat("\nStructure:\n")
+str(module_list_schema_check)
+
+# Number of modules
+cat("\nNumber of modules:\n")
+print(length(module_list_schema_check))
+
+# Show first few module names
+cat("\nFirst 10 module names:\n")
+print(head(names(module_list_schema_check), 10))
+
+# Show first few modules and their genes
+cat("\nFirst 3 modules and contents:\n")
+print(module_list_schema_check[1:3])
