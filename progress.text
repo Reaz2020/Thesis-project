@@ -1,0 +1,20 @@
+Step 1 — Explored the initial Seurat dataset (01)
+Loaded the initial ICI/cRA Seurat object and examined its structure, cell information, and available metadata.
+Step 2 — Explored the original 62 immune gene modules (02)
+Examined the curated module library, including module names, gene lists, biological descriptions, and references.
+Step 3 — Checked missing module genes (03)
+Compared the 62 modules with genes available in the initial ICI/cRA dataset and identified missing genes, including ITGAE, CASP1, and TRAV1-2.
+Step 4 — Investigated gene overlap between modules (04)
+Identified 116 overlapping module pairs involving 102 unique shared genes, highlighting potential redundancy between modules.
+Step 5 — Explored separating overlapping genes (05)
+Experimentally removed shared genes from modules and created separate single-gene modules; this was an exploratory analysis, not a change to the original library.
+Step 6 — Explored the WuImmune dataset (06)
+Loaded and examined the WuImmune immune-cell dataset containing 50,063 cells, 29,733 genes, and samples from 26 patients.
+Step 7 — Reclustered WuImmune cells (07)
+Performed normalization, variable-feature selection, PCA, neighborhood detection, clustering, and UMAP visualization, obtaining 27 clusters while preserving the original annotations.
+Step 8 — Checked module gene availability in WuImmune (08)
+Compared all 62 modules against WuImmune genes: 60 had complete coverage, while two had missing genes. All 62 modules remained usable.
+Step 9 — Inspected the original module structure (09)
+Verified that the original Excel file contained 62 modules and four columns, and confirmed that the WuImmune-compatible module list contained 62 named gene vectors.
+Step 10 — Separated identity and functional-state modules (10)
+Provisionally classified the original 62 modules into 17 cell-identity modules and 45 functional-state modules, saving two separate Excel files while preserving the original schema.
