@@ -1,0 +1,2 @@
+"method","cells","modules","genes","batch_size","batches","auc_max_rank","ranking_seconds","auc_seconds","scoring_seconds","scoring_minutes","package_version","R_version","installation_difficulty","installation_seconds","peak_ram_gib","peak_memory_footprint_gib","total_execution_seconds","timestamp"
+"AUCell",50063,62,29733,500,101,1487,29.19,60.69,97.27,1.62,"1.34.0","R version 4.6.1 (2026-06-24)",NA,NA,1.911,5.055,170.73,"2026-10-20 23:04:01.447037"

@@ -1,0 +1,260 @@
+Loading required package: SeuratObject
+Loading required package: sp
+‘SeuratObject’ was built under R 4.6.0 but the current version is
+4.6.1; it is recomended that you reinstall ‘SeuratObject’ as the ABI
+for R may have changed
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+Cells: 50063 
+Genes: 29733 
+Modules: 62 
+AUC maximum rank: 1487 
+Batches: 101 
+            used   (Mb) gc trigger   (Mb) limit (Mb)  max used   (Mb)
+Ncells   9708621  518.5   17436097  931.2         NA  10521335  561.9
+Vcells 360229461 2748.4  500746038 3820.4      16384 360416564 2749.8
+
+Batch 1 of 101 - cells 1 to 500 
+
+Batch 2 of 101 - cells 501 to 1000 
+
+Batch 3 of 101 - cells 1001 to 1500 
+
+Batch 4 of 101 - cells 1501 to 2000 
+
+Batch 5 of 101 - cells 2001 to 2500 
+
+Batch 6 of 101 - cells 2501 to 3000 
+
+Batch 7 of 101 - cells 3001 to 3500 
+
+Batch 8 of 101 - cells 3501 to 4000 
+
+Batch 9 of 101 - cells 4001 to 4500 
+
+Batch 10 of 101 - cells 4501 to 5000 
+
+Batch 11 of 101 - cells 5001 to 5500 
+
+Batch 12 of 101 - cells 5501 to 6000 
+
+Batch 13 of 101 - cells 6001 to 6500 
+
+Batch 14 of 101 - cells 6501 to 7000 
+
+Batch 15 of 101 - cells 7001 to 7500 
+
+Batch 16 of 101 - cells 7501 to 8000 
+
+Batch 17 of 101 - cells 8001 to 8500 
+
+Batch 18 of 101 - cells 8501 to 9000 
+
+Batch 19 of 101 - cells 9001 to 9500 
+
+Batch 20 of 101 - cells 9501 to 10000 
+
+Batch 21 of 101 - cells 10001 to 10500 
+
+Batch 22 of 101 - cells 10501 to 11000 
+
+Batch 23 of 101 - cells 11001 to 11500 
+
+Batch 24 of 101 - cells 11501 to 12000 
+
+Batch 25 of 101 - cells 12001 to 12500 
+
+Batch 26 of 101 - cells 12501 to 13000 
+
+Batch 27 of 101 - cells 13001 to 13500 
+
+Batch 28 of 101 - cells 13501 to 14000 
+
+Batch 29 of 101 - cells 14001 to 14500 
+
+Batch 30 of 101 - cells 14501 to 15000 
+
+Batch 31 of 101 - cells 15001 to 15500 
+
+Batch 32 of 101 - cells 15501 to 16000 
+
+Batch 33 of 101 - cells 16001 to 16500 
+
+Batch 34 of 101 - cells 16501 to 17000 
+
+Batch 35 of 101 - cells 17001 to 17500 
+
+Batch 36 of 101 - cells 17501 to 18000 
+
+Batch 37 of 101 - cells 18001 to 18500 
+
+Batch 38 of 101 - cells 18501 to 19000 
+
+Batch 39 of 101 - cells 19001 to 19500 
+
+Batch 40 of 101 - cells 19501 to 20000 
+
+Batch 41 of 101 - cells 20001 to 20500 
+
+Batch 42 of 101 - cells 20501 to 21000 
+
+Batch 43 of 101 - cells 21001 to 21500 
+
+Batch 44 of 101 - cells 21501 to 22000 
+
+Batch 45 of 101 - cells 22001 to 22500 
+
+Batch 46 of 101 - cells 22501 to 23000 
+
+Batch 47 of 101 - cells 23001 to 23500 
+
+Batch 48 of 101 - cells 23501 to 24000 
+
+Batch 49 of 101 - cells 24001 to 24500 
+
+Batch 50 of 101 - cells 24501 to 25000 
+
+Batch 51 of 101 - cells 25001 to 25500 
+
+Batch 52 of 101 - cells 25501 to 26000 
+
+Batch 53 of 101 - cells 26001 to 26500 
+
+Batch 54 of 101 - cells 26501 to 27000 
+
+Batch 55 of 101 - cells 27001 to 27500 
+
+Batch 56 of 101 - cells 27501 to 28000 
+
+Batch 57 of 101 - cells 28001 to 28500 
+
+Batch 58 of 101 - cells 28501 to 29000 
+
+Batch 59 of 101 - cells 29001 to 29500 
+
+Batch 60 of 101 - cells 29501 to 30000 
+
+Batch 61 of 101 - cells 30001 to 30500 
+
+Batch 62 of 101 - cells 30501 to 31000 
+
+Batch 63 of 101 - cells 31001 to 31500 
+
+Batch 64 of 101 - cells 31501 to 32000 
+
+Batch 65 of 101 - cells 32001 to 32500 
+
+Batch 66 of 101 - cells 32501 to 33000 
+
+Batch 67 of 101 - cells 33001 to 33500 
+
+Batch 68 of 101 - cells 33501 to 34000 
+
+Batch 69 of 101 - cells 34001 to 34500 
+
+Batch 70 of 101 - cells 34501 to 35000 
+
+Batch 71 of 101 - cells 35001 to 35500 
+
+Batch 72 of 101 - cells 35501 to 36000 
+
+Batch 73 of 101 - cells 36001 to 36500 
+
+Batch 74 of 101 - cells 36501 to 37000 
+
+Batch 75 of 101 - cells 37001 to 37500 
+
+Batch 76 of 101 - cells 37501 to 38000 
+
+Batch 77 of 101 - cells 38001 to 38500 
+
+Batch 78 of 101 - cells 38501 to 39000 
+
+Batch 79 of 101 - cells 39001 to 39500 
+
+Batch 80 of 101 - cells 39501 to 40000 
+
+Batch 81 of 101 - cells 40001 to 40500 
+
+Batch 82 of 101 - cells 40501 to 41000 
+
+Batch 83 of 101 - cells 41001 to 41500 
+
+Batch 84 of 101 - cells 41501 to 42000 
+
+Batch 85 of 101 - cells 42001 to 42500 
+
+Batch 86 of 101 - cells 42501 to 43000 
+
+Batch 87 of 101 - cells 43001 to 43500 
+
+Batch 88 of 101 - cells 43501 to 44000 
+
+Batch 89 of 101 - cells 44001 to 44500 
+
+Batch 90 of 101 - cells 44501 to 45000 
+
+Batch 91 of 101 - cells 45001 to 45500 
+
+Batch 92 of 101 - cells 45501 to 46000 
+
+Batch 93 of 101 - cells 46001 to 46500 
+
+Batch 94 of 101 - cells 46501 to 47000 
+
+Batch 95 of 101 - cells 47001 to 47500 
+
+Batch 96 of 101 - cells 47501 to 48000 
+
+Batch 97 of 101 - cells 48001 to 48500 
+
+Batch 98 of 101 - cells 48501 to 49000 
+
+Batch 99 of 101 - cells 49001 to 49500 
+
+Batch 100 of 101 - cells 49501 to 50000 
+
+Batch 101 of 101 - cells 50001 to 50063 
+
+AUCell scoring validated.
+
+========== AUCELL SCORING SUMMARY ==========
+Cells scored: 50063 
+Modules scored: 62 
+Missing scores: 0 
+Ranking time (seconds): 29.19 
+AUC time (seconds): 60.69 
+Total scoring time (seconds): 97.27 
+Total scoring time (minutes): 1.62 
+AUCell version: 1.34.0 
+
+Saved files:
+results/WuImmune_AUCell_scores.csv
+results/WuImmune_AUCell_scores.rds
+data/WuImmune_AUCell_scored.rds
+results/benchmark_AUCell.csv
+
+Script 13 completed successfully!
+      170.73 real       144.25 user        14.81 sys
+          2051719168  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             4817037  page reclaims
+                1186  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+               28956  voluntary context switches
+              195346  involuntary context switches
+       1905850957671  instructions retired
+        538051443104  cycles elapsed
+          5427327168  peak memory footprint

@@ -1,0 +1,176 @@
+Loading WuImmune dataset...
+Cells: 50063 
+Genes: 29733 
+Modules: 62 
+Module size range: 3 to 28 
+
+Checking technical variance...
+Technical variance: valid
+Minimum: 0.3177806 
+Maximum: 3.495293 
+
+Starting VAM scoring...
+            used   (Mb) gc trigger   (Mb) limit (Mb)  max used   (Mb)
+Ncells   3570851  190.8    6609288  353.0         NA   4749482  253.7
+Vcells 346362146 2642.6  485201519 3701.8      16384 355238085 2710.3
+gene.weights not specified, defaulting all weights to 1
+Computing VAM distances for 62 gene sets, 50063 cells and 29733 genes.
+Min set size: 3, median size: 6.5
+Computing for gene set 50 of size 4
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+
+VAM scoring completed.
+Scoring time: 10.6 seconds
+
+========== VAM ASSAY INSPECTION ==========
+Assay class:
+[1] "Assay"
+attr(,"package")
+[1] "SeuratObject"
+
+Available layers:
+[1] "counts" "data"  
+
+Assay dimensions:
+[1]    62 50063
+
+First five feature names:
+[1] "Activated-B-cell-module"             "Activated-migratory-DC-module"      
+[3] "Adhesion-retention-egress-module"    "Adhesion-stromal-interaction-module"
+[5] "Age-associated-B-module"            
+
+========== VAM LAYER INSPECTION ==========
+
+Counts layer dimensions:
+[1]    62 50063
+
+Counts: first module, first 20 cells:
+ [1] NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
+
+Counts: missing values:
+[1] 3103906
+
+Counts: non-finite values:
+[1] 3103906
+
+Data layer dimensions:
+[1]    62 50063
+
+Data: first module, first 20 cells:
+ [1] NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
+
+Data: missing values:
+[1] 3103906
+
+Data: non-finite values:
+[1] 3103906
+
+========== DIRECT VAM TEST ==========
+Module: Activated_B_cell_module 
+Genes: 5 
+
+Direct VAM distance summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  0.000   9.551  15.337  16.491  21.753  82.957 
+
+Direct VAM CDF summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.0000  0.3003  0.6489  0.5829  0.8819  1.0000 
+Direct VAM missing scores: 0 
+Direct VAM non-finite scores: 0 
+
+========== SCORE EXTRACTION ==========
+
+========== VAM DIAGNOSTICS ==========
+Total missing scores: 3103906 
+Modules with missing scores: 62 
+Total non-finite scores: 3103906 
+Modules with non-finite scores: 62 
+
+Affected modules:
+                              module n_genes missing_scores nonfinite_scores
+             Activated_B_cell_module       5          50063            50063
+       Activated_migratory_DC_module       5          50063            50063
+    Adhesion_retention_egress_module       6          50063            50063
+ Adhesion_stromal_interaction_module      28          50063            50063
+             Age_associated_B_module       4          50063            50063
+   Antigen_cross_presentation_module       6          50063            50063
+          Autophagy_lysosomal_module      13          50063            50063
+              B_cell_identity_module       7          50063            50063
+                          C1Q_module       3          50063            50063
+                 CD39_IL18R_T_module       7          50063            50063
+                          CD3_module       7          50063            50063
+                 CD4_identity_module       4          50063            50063
+                 CD8_identity_module       4          50063            50063
+                cDC1_identity_module       5          50063            50063
+                cDC2_identity_module       7          50063            50063
+                cDC3_identity_module       7          50063            50063
+              Chemokines_IFNG_module       6          50063            50063
+                 Class_switch_module       6          50063            50063
+           Cycling_centrosome_module       6          50063            50063
+                    Cytotoxic_module       8          50063            50063
+            Early_dysfunction_module       7          50063            50063
+     ECM_remodeling_migration_module       9          50063            50063
+          Effector_activation_module       4          50063            50063
+             Endocytic_uptake_module      12          50063            50063
+                 GC_dark_zone_module       5          50063            50063
+                GC_light_zone_module       4          50063            50063
+      HOBIT_tissue_adaptation_module       9          50063            50063
+                  IFN_high_DC_module       6          50063            50063
+             IFN_responsive_B_module       5          50063            50063
+    IFN_stimulated_lymphocyte_module       6          50063            50063
+               IFN_stimulated_module      21          50063            50063
+   IL1B_inflammasome_effector_module      17          50063            50063
+     Immediate_early_response_module       8          50063            50063
+            Inflammatory_cDC3_module       5          50063            50063
+   Inflammatory_monocyte_core_module      17          50063            50063
+             Innate_NK_like_T_module      10          50063            50063
+    Innate_sensing_regulation_module      10          50063            50063
+                     LAMP3_DC_module       9          50063            50063
+            Lipid_handling_DC_module       4          50063            50063
+                  MAIT_like_T_module       7          50063            50063
+                Memory_B_cell_module       6          50063            50063
+           Metabolic_rewiring_module       7          50063            50063
+   MHCII_antigen_presentation_module       8          50063            50063
+                 Naive_B_cell_module       7          50063            50063
+                 Naive_memory_module      10          50063            50063
+            NFkB_activated_DC_module       5          50063            50063
+       NFkB_feedback_response_module       7          50063            50063
+                 pDC_identity_module       6          50063            50063
+             pDC_IFN_producer_module       5          50063            50063
+  Plasma_cell_differentiation_module       4          50063            50063
+                Proliferating_module       9          50063            50063
+                 Regulatory_B_module       4          50063            50063
+                      S_phase_module       6          50063            50063
+          TCR_NFkB_activation_module      10          50063            50063
+          Terminal_exhaustion_module       6          50063            50063
+                 Th1_effector_module       4          50063            50063
+                          Th2_module       4          50063            50063
+   Tissue_resident_macrophage_module      15          50063            50063
+               Tolerogenic_DC_module       4          50063            50063
+                Tpex_stemlike_module      11          50063            50063
+                   Tph_B_help_module      10          50063            50063
+                         Treg_module       7          50063            50063
+
+Diagnostic report saved.
+Error: VAM produced non-finite scores. Results were not saved as completed outputs.
+Execution halted
+       19.19 real        15.82 user         1.73 sys
+          1283735552  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              653229  page reclaims
+                1238  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1173  voluntary context switches
+               31482  involuntary context switches
+        206677021199  instructions retired
+         58692262355  cycles elapsed
+          4614531776  peak memory footprint

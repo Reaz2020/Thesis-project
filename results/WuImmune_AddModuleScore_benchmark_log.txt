@@ -1,0 +1,72 @@
+Loading required package: SeuratObject
+Loading required package: sp
+‘SeuratObject’ was built under R 4.6.0 but the current version is
+4.6.1; it is recomended that you reinstall ‘SeuratObject’ as the ABI
+for R may have changed
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+========================================
+ADDMODULESCORE BENCHMARK
+========================================
+Seurat version: 5.5.1 
+Genes: 29733 
+Cells: 50063 
+Modules: 62 
+Input validation passed.
+
+Starting AddModuleScore...
+            used   (Mb) gc trigger   (Mb) limit (Mb)  max used   (Mb)
+Ncells   3560030  190.2    6605951  352.8         NA   4748944  253.7
+Vcells 346310035 2642.2  485198734 3701.8      16384 346494739 2643.6
+Scoring completed.
+Scoring seconds: 18.3 
+
+Score validation:
+Cells scored: 50063 
+Modules scored: 62 
+Missing scores: 0 
+Non-finite scores: 0 
+Constant-score modules: 0 
+
+Comparison with original scores:
+Maximum absolute difference: 0 
+
+========================================
+ADDMODULESCORE FINAL SUMMARY
+========================================
+Cells scored: 50063 
+Modules scored: 62 
+Missing scores: 0 
+Non-finite scores: 0 
+Constant-score modules: 0 
+Scoring seconds: 18.3 
+Total script seconds: 23.14 
+Maximum difference from original: 0 
+
+Benchmark saved:
+results/benchmark_AddModuleScore.csv
+
+Script 11b completed successfully!
+       25.18 real        21.53 user         2.53 sys
+          2018951168  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              880089  page reclaims
+                 151  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 920  voluntary context switches
+               14832  involuntary context switches
+        259439052008  instructions retired
+         83229718060  cycles elapsed
+          4329434432  peak memory footprint

@@ -1,0 +1,103 @@
+========================================
+VISION gene-module scoring
+========================================
+VISION version: 3.0.2 
+
+Loading WuImmune dataset...
+Cells: 50063 
+Modules: 62 
+
+Extracting normalized RNA expression...
+Expression genes: 29733 
+Expression cells: 50063 
+Module size range: 3 to 28 
+
+Creating 62 VISION signatures...
+Signatures created: 62 
+
+Creating VISION object...
+
+Using 15968/29733 genes detected in 0.10% of cells for signature analysis.
+See the `sig_gene_threshold` input to change this behavior.
+
+VISION object created.
+
+Adding gene signatures...
+
+Using 29733/29733 genes detected in 0.00% of cells for signature analysis.
+See the `sig_gene_threshold` input to change this behavior.
+
+Signatures retained: 62 
+
+Starting VISION signature scoring...
+            used   (Mb) gc trigger   (Mb) limit (Mb)  max used   (Mb)
+Ncells   3772387  201.5    7175970  383.3         NA   4749228  253.7
+Vcells 346649468 2644.8  587430970 4481.8      16384 469743372 3583.9
+Evaluating signature scores on cells...
+
+Evaluating signature-gene importance...
+
+
+VISION scoring completed.
+Scoring time: 10.09 seconds
+
+Extracting VISION scores...
+
+Raw score dimensions:
+[1] 50063    62
+
+First score column names:
+[1] "Activated_B_cell_module"             "Activated_migratory_DC_module"      
+[3] "Adhesion_retention_egress_module"    "Adhesion_stromal_interaction_module"
+[5] "Age_associated_B_module"             "Antigen_cross_presentation_module"  
+
+Validating cell and module identities...
+Cell IDs: matched
+Module names: matched
+Original ordering: restored
+
+Checking score quality...
+Missing scores: 0 
+Non-finite scores: 0 
+Minimum score: -0.4310203 
+Maximum score: 10.2924 
+Constant-score modules: 0 
+
+Saving validated VISION scores...
+
+========================================
+VISION FINAL SUMMARY
+========================================
+Cells scored: 50063 
+Modules scored: 62 
+Missing scores: 0 
+Non-finite scores: 0 
+Constant-score modules: 0 
+Scoring seconds: 10.09 
+Total script seconds: 19 
+
+Saved files:
+results/WuImmune_VISION_scores.csv
+results/WuImmune_VISION_scores.rds
+results/WuImmune_VISION_quality_report.csv
+results/benchmark_VISION.csv
+
+VISION Script 16 completed successfully!
+       21.38 real        18.07 user         4.03 sys
+          2362179584  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1818493  page reclaims
+                1011  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   4  signals received
+                1514  voluntary context switches
+               48398  involuntary context switches
+        160319755180  instructions retired
+         54274515064  cycles elapsed
+          7466237312  peak memory footprint

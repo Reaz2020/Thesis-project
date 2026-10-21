@@ -1,0 +1,139 @@
+========================================
+GSVA FULL SCORING
+========================================
+GSVA version: 2.6.12 
+Genes: 29733 
+Cells: 50063 
+Modules: 62 
+
+Creating GSVA parameters...
+ℹ 59491122 nonzeros (less than 2^31) and 96.00% sparsity
+
+Starting GSVA scoring...
+            used   (Mb) gc trigger   (Mb) limit (Mb)  max used   (Mb)
+Ncells  10999362  587.5   17456588  932.3         NA  12346273  659.4
+Vcells 359458608 2742.5  504041091 3845.6      16384 364718295 2782.6
+ℹ GSVA version 2.6.12
+ℹ Searching for rows with constant (nonzero) values
+ℹ Splitting calculations in 2 chunks of [19303, 50063] and 7.200 GiB
+! 4026 rows with constant values throughout the columns
+! Rows with constant values are discarded
+! 1731 rows with constant nonzero values throughout the samples
+! Rows with constant nonzero values are discarded
+ℹ Calculating GSVA ranks
+ℹ GSVA sparse algorithm
+ℹ Row-wise ECDF estimation with Gaussian kernels
+ℹ Calculating row ECDFs
+ℹ Splitting calculations in 2 chunks of [19303, 50063] and 7.200 GiB
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■         81% | ETA: 11m
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  100% | ETA:  0s
+ℹ Calculating column ranks
+ℹ Splitting calculations in 2 chunks of [23976, 40305] and 7.200 GiB
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■         81% | ETA:  2s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  100% | ETA:  0s
+ℹ GSVA sparse algorithm
+ℹ Calculating GSVA scores for 62 gene sets
+ℹ Splitting calculations in 97 chunks of [23976, 521] and 95.303 MiB
+Progress ■■                                 2% | ETA:  3m
+Progress ■■                                 3% | ETA:  3m
+Progress ■■■                                5% | ETA:  3m
+Progress ■■■                                7% | ETA:  3m
+Progress ■■■                                8% | ETA:  3m
+Progress ■■■■                              10% | ETA:  3m
+Progress ■■■■                              11% | ETA:  3m
+Progress ■■■■■                             14% | ETA:  3m
+Progress ■■■■■■                            16% | ETA:  3m
+Progress ■■■■■■                            17% | ETA:  2m
+Progress ■■■■■■■                           19% | ETA:  2m
+Progress ■■■■■■■                           20% | ETA:  2m
+Progress ■■■■■■■■                          22% | ETA:  2m
+Progress ■■■■■■■■                          24% | ETA:  2m
+Progress ■■■■■■■■                          25% | ETA:  2m
+Progress ■■■■■■■■■                         27% | ETA:  2m
+Progress ■■■■■■■■■■                        29% | ETA:  2m
+Progress ■■■■■■■■■■                        30% | ETA:  2m
+Progress ■■■■■■■■■■■                       32% | ETA:  2m
+Progress ■■■■■■■■■■■                       34% | ETA:  2m
+Progress ■■■■■■■■■■■■                      35% | ETA:  2m
+Progress ■■■■■■■■■■■■                      37% | ETA:  2m
+Progress ■■■■■■■■■■■■■                     39% | ETA:  2m
+Progress ■■■■■■■■■■■■■                     41% | ETA:  2m
+Progress ■■■■■■■■■■■■■■                    43% | ETA:  2m
+Progress ■■■■■■■■■■■■■■                    44% | ETA:  2m
+Progress ■■■■■■■■■■■■■■■                   46% | ETA:  2m
+Progress ■■■■■■■■■■■■■■■                   48% | ETA:  2m
+Progress ■■■■■■■■■■■■■■■■                  49% | ETA:  2m
+Progress ■■■■■■■■■■■■■■■■                  51% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■                 53% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■                 54% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■                56% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■                58% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■■               59% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■■               61% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■■■              63% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■■■              65% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■■■■             67% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■■■■             68% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■■■■■            70% | ETA:  1m
+Progress ■■■■■■■■■■■■■■■■■■■■■■■           72% | ETA: 50s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■           73% | ETA: 48s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■           75% | ETA: 44s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■          77% | ETA: 41s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■          78% | ETA: 39s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■         80% | ETA: 35s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■        82% | ETA: 31s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■        83% | ETA: 30s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■       85% | ETA: 26s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■       87% | ETA: 22s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■      88% | ETA: 20s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■      91% | ETA: 17s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■      92% | ETA: 15s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■     94% | ETA: 11s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■    96% | ETA:  8s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■    97% | ETA:  6s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■   99% | ETA:  2s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  100% | ETA:  0s
+Progress ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  100% | ETA:  0s
+✔ Calculations finished
+
+GSVA scoring completed.
+Scoring seconds: 9965.57 
+
+Score dimensions:
+[1]    62 50063
+Missing scores: 0 
+Non-finite scores: 0 
+Constant-score modules: 0 
+
+Saving GSVA scores...
+
+========================================
+GSVA FINAL SUMMARY
+========================================
+Cells scored: 50063 
+Modules scored: 62 
+Missing scores: 0 
+Non-finite scores: 0 
+Constant-score modules: 0 
+Scoring seconds: 9965.57 
+Total script seconds: 9974.86 
+
+GSVA Script 17 completed successfully!
+     9981.11 real      3207.18 user        26.98 sys
+          2603712512  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             7772806  page reclaims
+                2123  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+               39082  voluntary context switches
+             1041082  involuntary context switches
+      48167969836872  instructions retired
+      10951506520144  cycles elapsed
+          8922401920  peak memory footprint

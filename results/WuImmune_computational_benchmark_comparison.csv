@@ -1,0 +1,7 @@
+"method","package_version","cells","modules","genes","scoring_seconds","total_execution_seconds","external_elapsed_seconds","peak_ram_gib","peak_memory_footprint_gib","max_resident_bytes","peak_footprint_bytes","installation_difficulty","missing_scores","nonfinite_scores","status","scoring_minutes","external_elapsed_minutes","scores_generated"
+"VISION","3.0.2",50063,62,29733,10.09,19,21.38,2.2,6.95,2362179584,7466237312,"Moderate",0,0,"Completed",0.17,0.36,3103906
+"AddModuleScore","5.5.1",50063,62,29733,18.3,23.14,25.18,1.88,4.03,2018951168,4329434432,"Easy",0,0,"Completed",0.3,0.42,3103906
+"AUCell","1.34.0",50063,62,29733,97.27,170.73,170.73,1.91,5.05,2051719168,5427327168,NA,NA,NA,NA,1.62,2.85,3103906
+"UCell","2.16.0",50063,62,29733,196.95,NA,269.18,1.85,6.41,1990639616,6882411968,NA,NA,NA,NA,3.28,4.49,3103906
+"JASMINE",NA,50063,62,29733,3195.19,NA,3266.37,1.86,4.68,2001649664,5025691072,"Moderate",NA,NA,NA,53.25,54.44,3103906
+"GSVA","2.6.12",50063,62,29733,9965.57,9974.86,9981.11,2.42,8.31,2603712512,8922401920,"Easy",0,0,"Completed",166.09,166.35,3103906

@@ -1,0 +1,56 @@
+Loading required package: SeuratObject
+Loading required package: sp
+‘SeuratObject’ was built under R 4.6.0 but the current version is
+4.6.1; it is recomended that you reinstall ‘SeuratObject’ as the ABI
+for R may have changed
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+Cells: 50063 
+Modules: 62 
+Input checks passed.
+
+Starting UCell scoring...
+            used   (Mb) gc trigger   (Mb) limit (Mb)  max used   (Mb)
+Ncells   8389736  448.1   12478228  666.5         NA   9727961  519.6
+Vcells 354971510 2708.3  497673114 3797.0      16384 355151440 2709.6
+Scoring completed in 196.95 seconds.
+Score validation passed.
+
+========== UCELL SCORING SUMMARY ==========
+Cells scored: 50063 
+Modules scored: 62 
+Missing scores: 0 
+Scoring time (seconds): 196.95 
+Scoring time (minutes): 3.28 
+Package version: 2.16.0 
+
+Saved files:
+results/WuImmune_UCell_scores.csv
+results/WuImmune_UCell_scores.rds
+data/WuImmune_UCell_scored.rds
+results/benchmark_UCell.csv
+
+Script 12 completed successfully!
+      269.18 real       240.11 user        26.00 sys
+          1990639616  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             9298527  page reclaims
+                1396  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+               32995  voluntary context switches
+              678436  involuntary context switches
+       2975647637178  instructions retired
+        891332543700  cycles elapsed
+          6882411968  peak memory footprint

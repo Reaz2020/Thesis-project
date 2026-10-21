@@ -1,0 +1,153 @@
+Loading required package: SeuratObject
+Loading required package: sp
+‘SeuratObject’ was built under R 4.6.0 but the current version is
+4.6.1; it is recomended that you reinstall ‘SeuratObject’ as the ABI
+for R may have changed
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+Cells: 50063 
+Modules: 62 
+Batches: 101 
+            used   (Mb) gc trigger   (Mb) limit (Mb)  max used   (Mb)
+Ncells   3574586  191.0    6621060  353.7         NA   4748944  253.7
+Vcells 349442961 2666.1  485212148 3701.9      16384 349628186 2667.5
+Batch 1 of 101 
+Batch 2 of 101 
+Batch 3 of 101 
+Batch 4 of 101 
+Batch 5 of 101 
+Batch 6 of 101 
+Batch 7 of 101 
+Batch 8 of 101 
+Batch 9 of 101 
+Batch 10 of 101 
+Batch 11 of 101 
+Batch 12 of 101 
+Batch 13 of 101 
+Batch 14 of 101 
+Batch 15 of 101 
+Batch 16 of 101 
+Batch 17 of 101 
+Batch 18 of 101 
+Batch 19 of 101 
+Batch 20 of 101 
+Batch 21 of 101 
+Batch 22 of 101 
+Batch 23 of 101 
+Batch 24 of 101 
+Batch 25 of 101 
+Batch 26 of 101 
+Batch 27 of 101 
+Batch 28 of 101 
+Batch 29 of 101 
+Batch 30 of 101 
+Batch 31 of 101 
+Batch 32 of 101 
+Batch 33 of 101 
+Batch 34 of 101 
+Batch 35 of 101 
+Batch 36 of 101 
+Batch 37 of 101 
+Batch 38 of 101 
+Batch 39 of 101 
+Batch 40 of 101 
+Batch 41 of 101 
+Batch 42 of 101 
+Batch 43 of 101 
+Batch 44 of 101 
+Batch 45 of 101 
+Batch 46 of 101 
+Batch 47 of 101 
+Batch 48 of 101 
+Batch 49 of 101 
+Batch 50 of 101 
+Batch 51 of 101 
+Batch 52 of 101 
+Batch 53 of 101 
+Batch 54 of 101 
+Batch 55 of 101 
+Batch 56 of 101 
+Batch 57 of 101 
+Batch 58 of 101 
+Batch 59 of 101 
+Batch 60 of 101 
+Batch 61 of 101 
+Batch 62 of 101 
+Batch 63 of 101 
+Batch 64 of 101 
+Batch 65 of 101 
+Batch 66 of 101 
+Batch 67 of 101 
+Batch 68 of 101 
+Batch 69 of 101 
+Batch 70 of 101 
+Batch 71 of 101 
+Batch 72 of 101 
+Batch 73 of 101 
+Batch 74 of 101 
+Batch 75 of 101 
+Batch 76 of 101 
+Batch 77 of 101 
+Batch 78 of 101 
+Batch 79 of 101 
+Batch 80 of 101 
+Batch 81 of 101 
+Batch 82 of 101 
+Batch 83 of 101 
+Batch 84 of 101 
+Batch 85 of 101 
+Batch 86 of 101 
+Batch 87 of 101 
+Batch 88 of 101 
+Batch 89 of 101 
+Batch 90 of 101 
+Batch 91 of 101 
+Batch 92 of 101 
+Batch 93 of 101 
+Batch 94 of 101 
+Batch 95 of 101 
+Batch 96 of 101 
+Batch 97 of 101 
+Batch 98 of 101 
+Batch 99 of 101 
+Batch 100 of 101 
+Batch 101 of 101 
+
+========== JASMINE SUMMARY ==========
+Cells scored: 50063 
+Modules scored: 62 
+Missing scores: 0 
+Scoring time (seconds): 3195.19 
+Scoring time (minutes): 53.25 
+Method: oddsratio
+
+Saved files:
+results/WuImmune_JASMINE_scores.csv
+results/WuImmune_JASMINE_scores.rds
+data/WuImmune_JASMINE_scored.rds
+results/benchmark_JASMINE.csv
+
+Script 14 completed successfully!
+     3266.37 real      2246.20 user       779.79 sys
+          2001649664  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+           374900763  page reclaims
+                 789  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+               34926  voluntary context switches
+             3133323  involuntary context switches
+      37624033888295  instructions retired
+      10142539972642  cycles elapsed
+          5025691072  peak memory footprint

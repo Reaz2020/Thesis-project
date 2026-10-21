@@ -1,0 +1,4 @@
+"method","variant","cells","modules","batch_size","scoring_seconds","scoring_minutes","installation_difficulty","installation_seconds","peak_ram_gib","peak_memory_footprint_gib","total_execution_seconds","timestamp"
+"JASMINE","oddsratio",50063,62,500,3195.19,53.25,"Moderate",NA,NA,NA,NA,"2026-10-21 00:13:25.970872"
+
+
