@@ -34,3 +34,6 @@
 
 *.tmp
 *.log
+
+# Keep thesis datasets private
+/data/
