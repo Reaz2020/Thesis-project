@@ -1,0 +1,121 @@
+
+========================================
+WUIMMUNE BIOLOGICAL METHOD COMPARISON
+========================================
+
+Reference cells: 50063 
+
+----------------------------------------
+Evaluating: AddModuleScore 
+----------------------------------------
+B_cell_identity_module           AUROC = 0.9757 (positive=3128, negative=46935)
+CD4_identity_module              AUROC = 0.7843 (positive=18956, negative=11357)
+CD8_identity_module              AUROC = 0.9135 (positive=11357, negative=18956)
+Memory_B_cell_module             AUROC = 0.6899 (positive=2503, negative=625)
+Naive_B_cell_module              AUROC = 0.7715 (positive=625, negative=2503)
+cDC1_identity_module             AUROC = 0.9554 (positive=155, negative=785)
+cDC2_identity_module             AUROC = 0.9274 (positive=333, negative=607)
+pDC_identity_module              AUROC = 0.9907 (positive=329, negative=611)
+LAMP3_DC_module                  AUROC = 0.9863 (positive=123, negative=817)
+Treg_module                      AUROC = 0.9230 (positive=4202, negative=14754)
+
+----------------------------------------
+Evaluating: UCell 
+----------------------------------------
+B_cell_identity_module           AUROC = 0.9697 (positive=3128, negative=46935)
+CD4_identity_module              AUROC = 0.7694 (positive=18956, negative=11357)
+CD8_identity_module              AUROC = 0.9061 (positive=11357, negative=18956)
+Memory_B_cell_module             AUROC = 0.6907 (positive=2503, negative=625)
+Naive_B_cell_module              AUROC = 0.7546 (positive=625, negative=2503)
+cDC1_identity_module             AUROC = 0.9249 (positive=155, negative=785)
+cDC2_identity_module             AUROC = 0.9313 (positive=333, negative=607)
+pDC_identity_module              AUROC = 0.9884 (positive=329, negative=611)
+LAMP3_DC_module                  AUROC = 0.9812 (positive=123, negative=817)
+Treg_module                      AUROC = 0.9145 (positive=4202, negative=14754)
+
+----------------------------------------
+Evaluating: AUCell 
+----------------------------------------
+B_cell_identity_module           AUROC = 0.9701 (positive=3128, negative=46935)
+CD4_identity_module              AUROC = 0.7678 (positive=18956, negative=11357)
+CD8_identity_module              AUROC = 0.9051 (positive=11357, negative=18956)
+Memory_B_cell_module             AUROC = 0.6885 (positive=2503, negative=625)
+Naive_B_cell_module              AUROC = 0.7576 (positive=625, negative=2503)
+cDC1_identity_module             AUROC = 0.9264 (positive=155, negative=785)
+cDC2_identity_module             AUROC = 0.9282 (positive=333, negative=607)
+pDC_identity_module              AUROC = 0.9878 (positive=329, negative=611)
+LAMP3_DC_module                  AUROC = 0.9800 (positive=123, negative=817)
+Treg_module                      AUROC = 0.9121 (positive=4202, negative=14754)
+
+----------------------------------------
+Evaluating: JASMINE 
+----------------------------------------
+B_cell_identity_module           AUROC = 0.9431 (positive=3128, negative=46935)
+CD4_identity_module              AUROC = 0.7138 (positive=18956, negative=11357)
+CD8_identity_module              AUROC = 0.9016 (positive=11357, negative=18956)
+Memory_B_cell_module             AUROC = 0.6475 (positive=2503, negative=625)
+Naive_B_cell_module              AUROC = 0.5842 (positive=625, negative=2503)
+cDC1_identity_module             AUROC = 0.7845 (positive=155, negative=785)
+cDC2_identity_module             AUROC = 0.7198 (positive=333, negative=607)
+pDC_identity_module              AUROC = 0.9740 (positive=329, negative=611)
+LAMP3_DC_module                  AUROC = 0.9098 (positive=123, negative=817)
+Treg_module                      AUROC = 0.8811 (positive=4202, negative=14754)
+
+----------------------------------------
+Evaluating: VISION 
+----------------------------------------
+B_cell_identity_module           AUROC = 0.9772 (positive=3128, negative=46935)
+CD4_identity_module              AUROC = 0.7823 (positive=18956, negative=11357)
+CD8_identity_module              AUROC = 0.9117 (positive=11357, negative=18956)
+Memory_B_cell_module             AUROC = 0.6984 (positive=2503, negative=625)
+Naive_B_cell_module              AUROC = 0.7778 (positive=625, negative=2503)
+cDC1_identity_module             AUROC = 0.9577 (positive=155, negative=785)
+cDC2_identity_module             AUROC = 0.9260 (positive=333, negative=607)
+pDC_identity_module              AUROC = 0.9897 (positive=329, negative=611)
+LAMP3_DC_module                  AUROC = 0.9844 (positive=123, negative=817)
+Treg_module                      AUROC = 0.9213 (positive=4202, negative=14754)
+
+----------------------------------------
+Evaluating: GSVA 
+----------------------------------------
+B_cell_identity_module           AUROC = 0.9715 (positive=3128, negative=46935)
+CD4_identity_module              AUROC = 0.7464 (positive=18956, negative=11357)
+CD8_identity_module              AUROC = 0.8946 (positive=11357, negative=18956)
+Memory_B_cell_module             AUROC = 0.6884 (positive=2503, negative=625)
+Naive_B_cell_module              AUROC = 0.7592 (positive=625, negative=2503)
+cDC1_identity_module             AUROC = 0.9428 (positive=155, negative=785)
+cDC2_identity_module             AUROC = 0.9231 (positive=333, negative=607)
+pDC_identity_module              AUROC = 0.9811 (positive=329, negative=611)
+LAMP3_DC_module                  AUROC = 0.9563 (positive=123, negative=817)
+Treg_module                      AUROC = 0.9003 (positive=4202, negative=14754)
+null device 
+          1 
+null device 
+          1 
+
+========================================
+BIOLOGICAL COMPARISON SUMMARY
+========================================
+         method evaluated_modules mean_auroc median_auroc min_auroc max_auroc
+         VISION                10     0.8926       0.9236    0.6984    0.9897
+ AddModuleScore                10     0.8918       0.9252    0.6899    0.9907
+          UCell                10     0.8831       0.9197    0.6907    0.9884
+         AUCell                10     0.8824       0.9193    0.6885    0.9878
+           GSVA                10     0.8764       0.9117    0.6884    0.9811
+        JASMINE                10     0.8059       0.8328    0.5842    0.9740
+
+Highest mean AUROC in these tasks: VISION 
+
+Files saved:
+results/WuImmune_biological_AUROC_comparison.csv
+results/WuImmune_biological_AUROC_summary.csv
+results/WuImmune_biological_AUROC_matrix.csv
+figures/WuImmune_biological_AUROC_heatmap.png
+figures/WuImmune_biological_mean_AUROC.png
+
+IMPORTANT:
+These AUROCs measure agreement with existing annotations.
+They do not establish independent biological ground truth.
+The mean AUROC is descriptive, not a definitive ranking.
+
+Script 21 completed successfully!

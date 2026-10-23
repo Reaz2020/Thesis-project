@@ -1,0 +1,232 @@
+
+========================================
+WUIMMUNE METHOD AGREEMENT ANALYSIS
+========================================
+
+Reference cells: 50063 
+Gene modules: 62 
+Scoring methods: 6 
+
+Loading: AddModuleScore 
+Aligned dimensions: 50063 cells x 62 modules
+
+Loading: UCell 
+Aligned dimensions: 50063 cells x 62 modules
+
+Loading: AUCell 
+Aligned dimensions: 50063 cells x 62 modules
+
+Loading: JASMINE 
+Aligned dimensions: 50063 cells x 62 modules
+
+Loading: VISION 
+Aligned dimensions: 50063 cells x 62 modules
+
+Loading: GSVA 
+Aligned dimensions: 50063 cells x 62 modules
+
+All six score files loaded and aligned.
+Method pairs: 15 
+
+Processing module: Activated_B_cell_module 
+
+Processing module: Activated_migratory_DC_module 
+
+Processing module: Adhesion_retention_egress_module 
+
+Processing module: Adhesion_stromal_interaction_module 
+
+Processing module: Age_associated_B_module 
+
+Processing module: Antigen_cross_presentation_module 
+
+Processing module: Autophagy_lysosomal_module 
+
+Processing module: B_cell_identity_module 
+
+Processing module: C1Q_module 
+
+Processing module: CD39_IL18R_T_module 
+
+Processing module: CD3_module 
+
+Processing module: CD4_identity_module 
+
+Processing module: CD8_identity_module 
+
+Processing module: cDC1_identity_module 
+
+Processing module: cDC2_identity_module 
+
+Processing module: cDC3_identity_module 
+
+Processing module: Chemokines_IFNG_module 
+
+Processing module: Class_switch_module 
+
+Processing module: Cycling_centrosome_module 
+
+Processing module: Cytotoxic_module 
+
+Processing module: Early_dysfunction_module 
+
+Processing module: ECM_remodeling_migration_module 
+
+Processing module: Effector_activation_module 
+
+Processing module: Endocytic_uptake_module 
+
+Processing module: GC_dark_zone_module 
+
+Processing module: GC_light_zone_module 
+
+Processing module: HOBIT_tissue_adaptation_module 
+
+Processing module: IFN_high_DC_module 
+
+Processing module: IFN_responsive_B_module 
+
+Processing module: IFN_stimulated_lymphocyte_module 
+
+Processing module: IFN_stimulated_module 
+
+Processing module: IL1B_inflammasome_effector_module 
+
+Processing module: Immediate_early_response_module 
+
+Processing module: Inflammatory_cDC3_module 
+
+Processing module: Inflammatory_monocyte_core_module 
+
+Processing module: Innate_NK_like_T_module 
+
+Processing module: Innate_sensing_regulation_module 
+
+Processing module: LAMP3_DC_module 
+
+Processing module: Lipid_handling_DC_module 
+
+Processing module: MAIT_like_T_module 
+
+Processing module: Memory_B_cell_module 
+
+Processing module: Metabolic_rewiring_module 
+
+Processing module: MHCII_antigen_presentation_module 
+
+Processing module: Naive_B_cell_module 
+
+Processing module: Naive_memory_module 
+
+Processing module: NFkB_activated_DC_module 
+
+Processing module: NFkB_feedback_response_module 
+
+Processing module: pDC_identity_module 
+
+Processing module: pDC_IFN_producer_module 
+
+Processing module: Plasma_cell_differentiation_module 
+
+Processing module: Proliferating_module 
+
+Processing module: Regulatory_B_module 
+
+Processing module: S_phase_module 
+
+Processing module: TCR_NFkB_activation_module 
+
+Processing module: Terminal_exhaustion_module 
+
+Processing module: Th1_effector_module 
+
+Processing module: Th2_module 
+
+Processing module: Tissue_resident_macrophage_module 
+
+Processing module: Tolerogenic_DC_module 
+
+Processing module: Tpex_stemlike_module 
+
+Processing module: Tph_B_help_module 
+
+Processing module: Treg_module 
+null device 
+          1 
+null device 
+          1 
+
+========================================
+METHOD AGREEMENT SUMMARY
+========================================
+       method_1 method_2 n_modules mean_spearman median_spearman min_spearman
+ AddModuleScore   VISION        62        0.9628          0.9683       0.8863
+          UCell   AUCell        62        0.9369          0.9558       0.7474
+         VISION     GSVA        62        0.9210          0.9259       0.7316
+ AddModuleScore     GSVA        62        0.8821          0.8871       0.6885
+          UCell   VISION        62        0.8631          0.8863       0.5495
+          UCell  JASMINE        62        0.8571          0.9288      -0.5365
+         AUCell   VISION        62        0.8494          0.8689       0.5561
+ AddModuleScore    UCell        62        0.8450          0.8730       0.5496
+ AddModuleScore   AUCell        62        0.8337          0.8634       0.5387
+         AUCell  JASMINE        62        0.8009          0.8663      -0.5166
+          UCell     GSVA        62        0.7763          0.7962       0.4638
+         AUCell     GSVA        62        0.7695          0.7920       0.4798
+        JASMINE   VISION        62        0.7113          0.7770      -0.5341
+ AddModuleScore  JASMINE        62        0.6878          0.7458      -0.4345
+        JASMINE     GSVA        62        0.6084          0.6964      -0.6480
+ max_spearman
+       0.9908
+       0.9941
+       0.9982
+       0.9643
+       0.9744
+       0.9867
+       0.9704
+       0.9484
+       0.9460
+       0.9491
+       0.9396
+       0.9360
+       0.8837
+       0.8469
+       0.8533
+
+Highest-agreement pair:
+       method_1 method_2 n_modules mean_spearman median_spearman min_spearman
+ AddModuleScore   VISION        62     0.9628406       0.9682682    0.8862713
+ max_spearman
+    0.9908077
+
+Lowest-agreement pair:
+ method_1 method_2 n_modules mean_spearman median_spearman min_spearman
+  JASMINE     GSVA        62     0.6084474        0.696409   -0.6480367
+ max_spearman
+    0.8533424
+
+Modules with lowest average agreement:
+                            module mean_pairwise_spearman
+                   LAMP3_DC_module                 0.3487
+ MHCII_antigen_presentation_module                 0.5399
+              cDC1_identity_module                 0.6669
+         Cycling_centrosome_module                 0.6727
+               Naive_B_cell_module                 0.6792
+              cDC2_identity_module                 0.7285
+                        Th2_module                 0.7299
+            B_cell_identity_module                 0.7485
+ IL1B_inflammasome_effector_module                 0.7545
+               GC_dark_zone_module                 0.7598
+
+Files saved:
+results/WuImmune_method_agreement_all_62_modules.csv
+results/WuImmune_method_agreement_pair_summary.csv
+results/WuImmune_method_agreement_matrix.csv
+results/WuImmune_module_agreement_summary.csv
+figures/WuImmune_method_agreement_heatmap.png
+figures/WuImmune_method_pair_agreement.png
+
+IMPORTANT:
+High agreement means similar cell rankings.
+It does not establish biological accuracy.
+
+Script 22 completed successfully!

@@ -1,0 +1,151 @@
+Loading required package: SeuratObject
+Loading required package: sp
+‘SeuratObject’ was built under R 4.6.0 but the current version is
+4.6.1; it is recomended that you reinstall ‘SeuratObject’ as the ABI
+for R may have changed
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+========================================
+WUIMMUNE BIOLOGICAL EVALUATION SETUP
+========================================
+
+Cells: 50063 
+Genes: 29733 
+
+========================================
+AVAILABLE METADATA COLUMNS
+========================================
+ [1] "NAME"             "Patient"          "Percent_mito"     "nCount_RNA"      
+ [5] "nFeature_RNA"     "celltype_major"   "celltype_minor"   "celltype_subset" 
+ [9] "subtype"          "gene_module"      "Calls"            "normal_cell_call"
+[13] "CNA_value"        "RNA_snn_res.0.5"  "seurat_clusters" 
+
+========================================
+CURRENT CELL IDENTITIES
+========================================
+
+   0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+5385 5033 3974 3624 3150 3094 2984 2478 2184 2137 1873 1688 1635 1408 1285 1141 
+  16   17   18   19   20   21   22   23   24   25   26 
+ 973  953  760  739  683  662  579  576  493  321  251 
+
+========================================
+POTENTIAL ANNOTATION COLUMNS
+========================================
+[1] "celltype_major"  "celltype_minor"  "celltype_subset" "seurat_clusters"
+
+Column: celltype_major 
+Number of unique values: 4 
+values
+     T-cells      Myeloid      B-cells Plasmablasts 
+       34749         9142         3128         3044 
+
+Column: celltype_minor 
+Number of unique values: 12 
+values
+   T cells CD4+    T cells CD8+      Macrophage    Plasmablasts  B cells Memory 
+          18956           11357            5510            3044            2503 
+       Monocyte        NK cells Cycling T-cells       NKT cells             DCs 
+           2263            1835            1501            1100             940 
+  B cells Naive Cycling_Myeloid 
+            625             429 
+
+Column: celltype_subset 
+Number of unique values: 28 
+values
+           T_cells_c1_CD4+_IL7R           T_cells_c4_CD8+_ZFP36 
+                           7572                            5042 
+           T_cells_c0_CD4+_CCR7    T_cells_c2_CD4+_T-regs_FOXP3 
+                           4948                            4202 
+           T_cells_c7_CD8+_IFNG                    Plasmablasts 
+                           3077                            3044 
+                 B cells Memory      T_cells_c3_CD4+_Tfh_CXCL13 
+                           2503                            2234 
+  Myeloid_c10_Macrophage_1_EGR1            T_cells_c8_CD8+_LAG3 
+                           2033                            1944 
+          Myeloid_c1_LAM1_FABP5        T_cells_c9_NK_cells_AREG 
+                           1934                            1835 
+              T_cells_c11_MKI67     Myeloid_c12_Monocyte_1_IL1B 
+                           1501                            1287 
+   T_cells_c10_NKT_cells_FCGR3A            Myeloid_c2_LAM2_APOE 
+                           1100                            1034 
+               T_cells_c6_IFIT1    Myeloid_c8_Monocyte_2_S100A9 
+                           1010                             922 
+                  B cells Naive  Myeloid_c9_Macrophage_2_CXCL10 
+                            625                             483 
+                Cycling_Myeloid           Myeloid_c11_cDC2_CD1C 
+                            429                             333 
+        Myeloid_c4_DCs_pDC_IRF7            T_cells_c5_CD8+_GZMK 
+                            329                             284 
+         Myeloid_c3_cDC1_CLEC9A             Myeloid_c0_DC_LAMP3 
+                            155                             123 
+   Myeloid_c7_Monocyte_3_FCGR3A Myeloid_c5_Macrophage_3_SIGLEC1 
+                             54                              26 
+
+Column: seurat_clusters 
+Number of unique values: 27 
+values
+   0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15 
+5385 5033 3974 3624 3150 3094 2984 2478 2184 2137 1873 1688 1635 1408 1285 1141 
+  16   17   18   19   20   21   22   23   24   25   26 
+ 973  953  760  739  683  662  579  576  493  321  251 
+
+========================================
+62 IMMUNE MODULE NAMES
+========================================
+ [1] "Activated_B_cell_module"             "Activated_migratory_DC_module"      
+ [3] "Adhesion_retention_egress_module"    "Adhesion_stromal_interaction_module"
+ [5] "Age_associated_B_module"             "Antigen_cross_presentation_module"  
+ [7] "Autophagy_lysosomal_module"          "B_cell_identity_module"             
+ [9] "C1Q_module"                          "CD39_IL18R_T_module"                
+[11] "CD3_module"                          "CD4_identity_module"                
+[13] "CD8_identity_module"                 "cDC1_identity_module"               
+[15] "cDC2_identity_module"                "cDC3_identity_module"               
+[17] "Chemokines_IFNG_module"              "Class_switch_module"                
+[19] "Cycling_centrosome_module"           "Cytotoxic_module"                   
+[21] "Early_dysfunction_module"            "ECM_remodeling_migration_module"    
+[23] "Effector_activation_module"          "Endocytic_uptake_module"            
+[25] "GC_dark_zone_module"                 "GC_light_zone_module"               
+[27] "HOBIT_tissue_adaptation_module"      "IFN_high_DC_module"                 
+[29] "IFN_responsive_B_module"             "IFN_stimulated_lymphocyte_module"   
+[31] "IFN_stimulated_module"               "IL1B_inflammasome_effector_module"  
+[33] "Immediate_early_response_module"     "Inflammatory_cDC3_module"           
+[35] "Inflammatory_monocyte_core_module"   "Innate_NK_like_T_module"            
+[37] "Innate_sensing_regulation_module"    "LAMP3_DC_module"                    
+[39] "Lipid_handling_DC_module"            "MAIT_like_T_module"                 
+[41] "Memory_B_cell_module"                "Metabolic_rewiring_module"          
+[43] "MHCII_antigen_presentation_module"   "Naive_B_cell_module"                
+[45] "Naive_memory_module"                 "NFkB_activated_DC_module"           
+[47] "NFkB_feedback_response_module"       "pDC_identity_module"                
+[49] "pDC_IFN_producer_module"             "Plasma_cell_differentiation_module" 
+[51] "Proliferating_module"                "Regulatory_B_module"                
+[53] "S_phase_module"                      "TCR_NFkB_activation_module"         
+[55] "Terminal_exhaustion_module"          "Th1_effector_module"                
+[57] "Th2_module"                          "Tissue_resident_macrophage_module"  
+[59] "Tolerogenic_DC_module"               "Tpex_stemlike_module"               
+[61] "Tph_B_help_module"                   "Treg_module"                        
+
+========================================
+AVAILABLE SCORE FILES
+========================================
+ [1] "results/WuImmune_AddModuleScore_scores.csv"
+ [2] "results/WuImmune_AddModuleScore_scores.rds"
+ [3] "results/WuImmune_AUCell_scores.csv"        
+ [4] "results/WuImmune_AUCell_scores.rds"        
+ [5] "results/WuImmune_GSVA_scores.csv"          
+ [6] "results/WuImmune_GSVA_scores.rds"          
+ [7] "results/WuImmune_JASMINE_scores.csv"       
+ [8] "results/WuImmune_JASMINE_scores.rds"       
+ [9] "results/WuImmune_UCell_scores.csv"         
+[10] "results/WuImmune_UCell_scores.rds"         
+[11] "results/WuImmune_VISION_scores.csv"        
+[12] "results/WuImmune_VISION_scores.rds"        
+
+========================================
+INSPECTION COMPLETED
+========================================

@@ -744,3 +744,42 @@ Additional biological and module-specific references are recorded in `data/ICI_6
 
 **README status:** Updated **21 October 2026** using the completed method logs and the most recent GSVA progress reported. Update the GSVA section and benchmark table after a validated final run; do not change its status merely because the process is consuming CPU.
 
+## Gene Module Scoring and Method Comparison
+
+Six gene-module scoring methods were evaluated on the WuImmune single-cell RNA-seq dataset (**50,063 cells and 62 immune gene modules**):
+
+- **AddModuleScore**
+- **UCell**
+- **AUCell**
+- **JASMINE** (custom optimized implementation)
+- **VISION**
+- **GSVA**
+
+### Evaluation Approach
+
+The methods were compared using three criteria:
+
+1. **Computational performance:** Scoring runtime, peak memory usage, and practical installation considerations were evaluated.
+2. **Biological performance:** AUROC was calculated for 10 selected immune identity modules against existing WuImmune cell-type annotations to assess how well each method distinguished relevant immune-cell populations.
+3. **Method agreement:** Spearman rank correlations were calculated across all 62 modules and 50,063 cells for all 15 method pairs (930 correlations), assessing similarity in cell rankings without requiring cell-type labels.
+
+### Key Findings
+
+| Method | Mean AUROC (10 modules) | Scoring time |
+|---|---:|---:|
+| VISION | **0.8926** | **10.09 s** |
+| AddModuleScore | 0.8918 | 18.30 s |
+| UCell | 0.8831 | 196.95 s |
+| AUCell | 0.8824 | 97.27 s |
+| GSVA | 0.8764 | 9,965.57 s |
+| JASMINE | 0.8059 | 3,195.19 s |
+
+The highest method agreement was observed between **AddModuleScore and VISION** (mean Spearman ρ = 0.9628), followed by **UCell and AUCell** (ρ = 0.9369).
+
+### Preliminary Method Selection
+
+**VISION and AddModuleScore** emerged as the strongest candidates based on biological discrimination and computational efficiency. **UCell** was retained as a complementary rank-based method for further evaluation.
+
+These findings support method shortlisting rather than establishing a universally best scoring algorithm. AUROC measures agreement with existing annotations, and high inter-method correlation does not necessarily indicate biological accuracy. The custom JASMINE implementation requires further validation.
+
+The selected methods and their saved module scores can be forwarded for downstream analysis and validation.

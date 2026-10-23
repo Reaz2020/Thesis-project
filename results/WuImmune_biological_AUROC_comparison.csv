@@ -1,0 +1,61 @@
+"method","module","annotation","positive_labels","negative_labels","n_positive","n_negative","auroc"
+"AddModuleScore","B_cell_identity_module","celltype_minor","B cells Memory; B cells Naive","All other annotated cells",3128,46935,0.975669356352598
+"AddModuleScore","CD4_identity_module","celltype_minor","T cells CD4+","T cells CD8+",18956,11357,0.784330783087431
+"AddModuleScore","CD8_identity_module","celltype_minor","T cells CD8+","T cells CD4+",11357,18956,0.913521198849003
+"AddModuleScore","Memory_B_cell_module","celltype_minor","B cells Memory","B cells Naive",2503,625,0.689933040351578
+"AddModuleScore","Naive_B_cell_module","celltype_minor","B cells Naive","B cells Memory",625,2503,0.771542628845385
+"AddModuleScore","cDC1_identity_module","celltype_subset","Myeloid_c3_cDC1_CLEC9A","Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",155,785,0.955389356893363
+"AddModuleScore","cDC2_identity_module","celltype_subset","Myeloid_c11_cDC2_CD1C","Myeloid_c3_cDC1_CLEC9A; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",333,607,0.927443093835186
+"AddModuleScore","pDC_identity_module","celltype_subset","Myeloid_c4_DCs_pDC_IRF7","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c0_DC_LAMP3",329,611,0.990717295380039
+"AddModuleScore","LAMP3_DC_module","celltype_subset","Myeloid_c0_DC_LAMP3","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7",123,817,0.986257475793852
+"AddModuleScore","Treg_module","celltype_subset","T_cells_c2_CD4+_T-regs_FOXP3","T_cells_c0_CD4+_CCR7; T_cells_c1_CD4+_IL7R; T_cells_c3_CD4+_Tfh_CXCL13",4202,14754,0.922972574431368
+"UCell","B_cell_identity_module","celltype_minor","B cells Memory; B cells Naive","All other annotated cells",3128,46935,0.969702882612047
+"UCell","CD4_identity_module","celltype_minor","T cells CD4+","T cells CD8+",18956,11357,0.769369352638848
+"UCell","CD8_identity_module","celltype_minor","T cells CD8+","T cells CD4+",11357,18956,0.90609068956452
+"UCell","Memory_B_cell_module","celltype_minor","B cells Memory","B cells Naive",2503,625,0.690692129444666
+"UCell","Naive_B_cell_module","celltype_minor","B cells Naive","B cells Memory",625,2503,0.754582500998801
+"UCell","cDC1_identity_module","celltype_subset","Myeloid_c3_cDC1_CLEC9A","Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",155,785,0.924910622560099
+"UCell","cDC2_identity_module","celltype_subset","Myeloid_c11_cDC2_CD1C","Myeloid_c3_cDC1_CLEC9A; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",333,607,0.931294556500487
+"UCell","pDC_identity_module","celltype_subset","Myeloid_c4_DCs_pDC_IRF7","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c0_DC_LAMP3",329,611,0.98841154318746
+"UCell","LAMP3_DC_module","celltype_subset","Myeloid_c0_DC_LAMP3","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7",123,817,0.981177418873332
+"UCell","Treg_module","celltype_subset","T_cells_c2_CD4+_T-regs_FOXP3","T_cells_c0_CD4+_CCR7; T_cells_c1_CD4+_IL7R; T_cells_c3_CD4+_Tfh_CXCL13",4202,14754,0.914533991282191
+"AUCell","B_cell_identity_module","celltype_minor","B cells Memory; B cells Naive","All other annotated cells",3128,46935,0.970074890670206
+"AUCell","CD4_identity_module","celltype_minor","T cells CD4+","T cells CD8+",18956,11357,0.767844715046442
+"AUCell","CD8_identity_module","celltype_minor","T cells CD8+","T cells CD4+",11357,18956,0.90507470036272
+"AUCell","Memory_B_cell_module","celltype_minor","B cells Memory","B cells Naive",2503,625,0.68846408310028
+"AUCell","Naive_B_cell_module","celltype_minor","B cells Naive","B cells Memory",625,2503,0.757564842189373
+"AUCell","cDC1_identity_module","celltype_subset","Myeloid_c3_cDC1_CLEC9A","Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",155,785,0.926447503595644
+"AUCell","cDC2_identity_module","celltype_subset","Myeloid_c11_cDC2_CD1C","Myeloid_c3_cDC1_CLEC9A; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",333,607,0.928219817840905
+"AUCell","pDC_identity_module","celltype_subset","Myeloid_c4_DCs_pDC_IRF7","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c0_DC_LAMP3",329,611,0.987792198747382
+"AUCell","LAMP3_DC_module","celltype_subset","Myeloid_c0_DC_LAMP3","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7",123,817,0.979968355375108
+"AUCell","Treg_module","celltype_subset","T_cells_c2_CD4+_T-regs_FOXP3","T_cells_c0_CD4+_CCR7; T_cells_c1_CD4+_IL7R; T_cells_c3_CD4+_Tfh_CXCL13",4202,14754,0.912131759523486
+"JASMINE","B_cell_identity_module","celltype_minor","B cells Memory; B cells Naive","All other annotated cells",3128,46935,0.943110462257075
+"JASMINE","CD4_identity_module","celltype_minor","T cells CD4+","T cells CD8+",18956,11357,0.713756167849756
+"JASMINE","CD8_identity_module","celltype_minor","T cells CD8+","T cells CD4+",11357,18956,0.901574386924555
+"JASMINE","Memory_B_cell_module","celltype_minor","B cells Memory","B cells Naive",2503,625,0.647491490211746
+"JASMINE","Naive_B_cell_module","celltype_minor","B cells Naive","B cells Memory",625,2503,0.584198801438274
+"JASMINE","cDC1_identity_module","celltype_subset","Myeloid_c3_cDC1_CLEC9A","Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",155,785,0.784532566262585
+"JASMINE","cDC2_identity_module","celltype_subset","Myeloid_c11_cDC2_CD1C","Myeloid_c3_cDC1_CLEC9A; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",333,607,0.719790630828522
+"JASMINE","pDC_identity_module","celltype_subset","Myeloid_c4_DCs_pDC_IRF7","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c0_DC_LAMP3",329,611,0.973999970152075
+"JASMINE","LAMP3_DC_module","celltype_subset","Myeloid_c0_DC_LAMP3","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7",123,817,0.90980286791852
+"JASMINE","Treg_module","celltype_subset","T_cells_c2_CD4+_T-regs_FOXP3","T_cells_c0_CD4+_CCR7; T_cells_c1_CD4+_IL7R; T_cells_c3_CD4+_Tfh_CXCL13",4202,14754,0.881095685568889
+"VISION","B_cell_identity_module","celltype_minor","B cells Memory; B cells Naive","All other annotated cells",3128,46935,0.9771992310201
+"VISION","CD4_identity_module","celltype_minor","T cells CD4+","T cells CD8+",18956,11357,0.782311861897764
+"VISION","CD8_identity_module","celltype_minor","T cells CD8+","T cells CD4+",11357,18956,0.911653390175769
+"VISION","Memory_B_cell_module","celltype_minor","B cells Memory","B cells Naive",2503,625,0.698402876548142
+"VISION","Naive_B_cell_module","celltype_minor","B cells Naive","B cells Memory",625,2503,0.777759168997203
+"VISION","cDC1_identity_module","celltype_subset","Myeloid_c3_cDC1_CLEC9A","Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",155,785,0.9576905691391
+"VISION","cDC2_identity_module","celltype_subset","Myeloid_c11_cDC2_CD1C","Myeloid_c3_cDC1_CLEC9A; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",333,607,0.925963855123657
+"VISION","pDC_identity_module","celltype_subset","Myeloid_c4_DCs_pDC_IRF7","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c0_DC_LAMP3",329,611,0.98974723782329
+"VISION","LAMP3_DC_module","celltype_subset","Myeloid_c0_DC_LAMP3","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7",123,817,0.984356808072365
+"VISION","Treg_module","celltype_subset","T_cells_c2_CD4+_T-regs_FOXP3","T_cells_c0_CD4+_CCR7; T_cells_c1_CD4+_IL7R; T_cells_c3_CD4+_Tfh_CXCL13",4202,14754,0.921290312965088
+"GSVA","B_cell_identity_module","celltype_minor","B cells Memory; B cells Naive","All other annotated cells",3128,46935,0.97154036354353
+"GSVA","CD4_identity_module","celltype_minor","T cells CD4+","T cells CD8+",18956,11357,0.74644647295713
+"GSVA","CD8_identity_module","celltype_minor","T cells CD8+","T cells CD4+",11357,18956,0.894642367323146
+"GSVA","Memory_B_cell_module","celltype_minor","B cells Memory","B cells Naive",2503,625,0.688428286056732
+"GSVA","Naive_B_cell_module","celltype_minor","B cells Naive","B cells Memory",625,2503,0.759233240111866
+"GSVA","cDC1_identity_module","celltype_subset","Myeloid_c3_cDC1_CLEC9A","Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",155,785,0.942782001232792
+"GSVA","cDC2_identity_module","celltype_subset","Myeloid_c11_cDC2_CD1C","Myeloid_c3_cDC1_CLEC9A; Myeloid_c4_DCs_pDC_IRF7; Myeloid_c0_DC_LAMP3",333,607,0.923054850567206
+"GSVA","pDC_identity_module","celltype_subset","Myeloid_c4_DCs_pDC_IRF7","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c0_DC_LAMP3",329,611,0.981146060820121
+"GSVA","LAMP3_DC_module","celltype_subset","Myeloid_c0_DC_LAMP3","Myeloid_c3_cDC1_CLEC9A; Myeloid_c11_cDC2_CD1C; Myeloid_c4_DCs_pDC_IRF7",123,817,0.956264740125981
+"GSVA","Treg_module","celltype_subset","T_cells_c2_CD4+_T-regs_FOXP3","T_cells_c0_CD4+_CCR7; T_cells_c1_CD4+_IL7R; T_cells_c3_CD4+_Tfh_CXCL13",4202,14754,0.900268424048735
